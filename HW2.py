@@ -1,6 +1,6 @@
 import random
 
-# YOUR NAME
+# Louis
 
 '''
 Problem 1
