@@ -31,7 +31,7 @@ rat, ox, tiger, rabbit, dragon, snake, horse, sheep, monkey, rooster, dog, pig.
 
 def zodiac(year):
     animals = ["rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "sheep", "monkey", "rooster", "dog", "pig"]
-    return animals[year % 12]
+    return animals[(year % 12) - 4]
 
 
 """
