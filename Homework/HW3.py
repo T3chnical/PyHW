@@ -1,4 +1,4 @@
-# YOUR NAME HERE
+# Louis
 
 """
 Problem 1
@@ -7,7 +7,7 @@ Return the range of a list of ints. Assume that it is sorted.
 
 
 def list_range(arr):
-    return None
+    return (arr[-1]) - (arr[0])
 
 
 """
@@ -18,7 +18,8 @@ elements.
 
 
 def switch(arr, a, b):
-    return None
+    arr[a], arr[b] = arr[b], arr[a]
+    return arr
 
 
 """
@@ -29,7 +30,8 @@ rat, ox, tiger, rabbit, dragon, snake, horse, sheep, monkey, rooster, dog, pig.
 
 
 def zodiac(year):
-    return None
+    zanimals = [rat, ox, tiger, rabbit, dragon, snake, horse, sheep, monkey, rooster, dog, pig]
+    return zanimals[year % 12]
 
 
 """
@@ -41,4 +43,4 @@ You should only need to modify the return statement to do this. The result shoul
 
 def seventh_number():
     arr = list(range(0, 778))
-    return None
+    return arr[::-7]
