@@ -25,7 +25,7 @@ def loop_average(arr):
     num = 0
     for a in arr:
         num += 1
-    return t / len(arr)
+    return num / len(arr)
 
 
 """
