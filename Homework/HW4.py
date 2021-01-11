@@ -10,7 +10,7 @@ def while_average(arr):
     a = 0
     sum = 0
     while sum < len(arr):
-        a += arr(sum)
+        a += arr[sum]
         sum += 1
     return a / len(arr)
 
